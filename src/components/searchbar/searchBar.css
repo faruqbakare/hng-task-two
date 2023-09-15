@@ -1,0 +1,16 @@
+input{
+    position: absolute;
+
+}
+button{
+    color: brown;
+}
+.inputtext{
+    color: cadetblue;
+}
+.icon{
+    color: yellowgreen;
+}
+.sea{
+    position: absolute;
+}

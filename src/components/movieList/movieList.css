@@ -1,0 +1,6 @@
+.movie__list{
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+    
+}

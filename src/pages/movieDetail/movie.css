@@ -1,0 +1,136 @@
+.movie {
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+    
+    
+}
+.movie__hero{
+    width: 90%;
+    
+}
+
+.movie__backdrop{
+        width: 90%;
+        height: 400px;
+        object-fit: cover;
+        object-position: 0 35%;
+        border-radius: 10px;
+        margin-top: 20px;
+}
+
+.sidebar{
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 50px;
+    border: 1px solid rgb(99, 99, 99);
+    font-weight: 700;
+    color: #666666;
+    width: 150px;
+}
+.sidebar > p {
+    margin-bottom: 20px;
+}
+.start_playing{
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8E7EB;
+    font-size: 1rem;
+    font-weight: 700;
+    
+    justify-content: center;
+    border: 1px solid #BE123C;
+    border-radius: 10px;
+    width: 180px;
+    padding: 10px;
+}
+.people{
+    font-weight: 100;
+    font-size: 15px;
+}
+.playing{
+    background-color: #BE123C33;
+    color: #BE123C;
+    padding: 10px;
+    font-size: 12px;
+    align-items: center;
+    border-radius: 50px;
+}
+.movietitle{
+    display: flex;
+    color: #666666;
+    
+    
+}
+.movietitle > div{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.movie__genre{
+    color: #B91C1C;
+    border: 1px solid #F8E7EB;
+    padding: 8px;
+    margin-left: 10PX;
+    border-radius: 50px;
+    
+}
+.overview{
+    color: #333333;
+    width: 70%;
+    margin-top: 20px;
+}
+.star{
+    color: yellow;
+}
+.genre{
+    display: flex;
+    justify-content: space-between;
+}
+.overview{
+    display: flex;
+    justify-content: space-between ;
+    width: 65%;
+    
+}
+
+.showtimes{
+    background-color: #BE123C;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.watchoptions{
+    color: #333333;
+    background-color: #F8E7EB;
+    border: 1px solid #BE123C;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+.overview__right {
+    
+    margin-left: 10px;
+}
+.oo{
+    display: flex;
+}
+.genree{
+    display: flex;
+    justify-content: space-around;
+}
